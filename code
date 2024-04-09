@@ -1,0 +1,5 @@
+s = input('Введите предложение: ')
+words = s.split()
+lw = words[-1]
+count = lw.count('к')
+print(f'Кол-во символов "к" в последнем слове: {count}')
